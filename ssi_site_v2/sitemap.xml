@@ -3,9 +3,26 @@
   <url>
     <loc>https://ssiconstruction.ca/</loc>
     <priority>1.00</priority>
+    <lastmod>2025-04-23</lastmod>
   </url>
   <url>
     <loc>https://ssiconstruction.ca/getting-started-clean.html</loc>
     <priority>0.80</priority>
+    <lastmod>2025-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ssiconstruction.ca/blog</loc>
+    <priority>0.75</priority>
+    <lastmod>2025-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ssiconstruction.ca/contact</loc>
+    <priority>0.70</priority>
+    <lastmod>2025-04-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ssiconstruction.ca/reviews</loc>
+    <priority>0.70</priority>
+    <lastmod>2025-04-23</lastmod>
   </url>
 </urlset>
