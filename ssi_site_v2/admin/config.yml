@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: main
+  identity_url: https://ssiconstruction.ca/.netlify/identity
+  gateway_url: https://ssiconstruction.ca/.netlify/git
 
 media_folder: "ssi_site_v2/images/uploads"
 public_folder: "/images/uploads"
