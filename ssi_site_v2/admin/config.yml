@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: SSI-Construction/ssi-site
   branch: main
 
