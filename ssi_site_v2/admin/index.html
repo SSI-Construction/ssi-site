@@ -4,13 +4,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SSI CMS</title>
-    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
   </head>
   <body>
     <div id="nc-root"></div>
+
+    <!-- Load CMS script first -->
+    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
+
+    <!-- Delay initialization until CMS is loaded -->
     <script>
-      window.CMS_MANUAL_INIT = true;
-      CMS.init();
+      window.addEventListener("load", function () {
+        if (typeof CMS !== "undefined") {
+          CMS.init();
+        } else {
+          console.error("❌ Netlify CMS failed to load.");
+        }
+      });
     </script>
   </body>
 </html>
