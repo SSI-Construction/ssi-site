@@ -123,3 +123,10 @@
 
 </body>
 </html>
+<script>
+  const hash = window.location.hash;
+  if (hash.startsWith("#invite_token=")) {
+    const token = hash.split("=")[1];
+    window.location.href = `/admin/#invite_token=${token}`;
+  }
+</script>
