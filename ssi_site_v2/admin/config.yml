@@ -1,7 +1,9 @@
 backend:
-  name: git-gateway
-  repo: SSI-Construction/ssi-site
-  branch: main
+backend:
+  name: auth0
+  client_id: YOUR_AUTH0_CLIENT_ID
+  domain: YOUR_AUTH0_DOMAIN
+  login: true
 
 media_folder: "ssi_site_v2/images/uploads"
 public_folder: "/images/uploads"
