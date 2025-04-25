@@ -1,0 +1,12 @@
+{
+    "name": "ssi-construction-site",
+    "version": "1.0.0",
+    "description": "Eleventy-powered site for SSI Construction with Netlify CMS integration",
+    "scripts": {
+      "start": "eleventy --serve",
+      "build": "eleventy"
+    },
+    "dependencies": {
+      "@11ty/eleventy": "^2.0.1"
+    }
+  }
