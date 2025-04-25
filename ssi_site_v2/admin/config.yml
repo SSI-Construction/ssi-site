@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: SSI-Construction/ssi-site
   branch: main
 
 media_folder: "ssi_site_v2/images/uploads"
