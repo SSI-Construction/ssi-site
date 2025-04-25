@@ -2,6 +2,9 @@
   publish = "_site"
   command = "npm run build"
 
+[context.production.environment]
+  SECRETS_SCAN_ENABLED = "false"
+
 [[redirects]]
   from = "/admin/*"
   to = "/admin/index.html"
