@@ -2,6 +2,9 @@
 title: How to Create a Construction Schedule with SSI Construction Manager
 date: 2025-04-26T20:42:55.492Z
 tags: []
+description: Discover an easy step-by-step guide to creating a professional
+  construction schedule using SSI Construction Manager. Simplify your project
+  planning today!
 ---
 <!--StartFragment-->
 
