@@ -6,7 +6,7 @@ title: Blog
 <h1 class="text-3xl font-bold mb-6">Latest Blog Posts</h1>
 
 <ul class="space-y-4">
-{% for post in collections.posts | reverse %}
+{% for post in collections.posts | reversed %}
   <li class="border-b pb-4">
     <a class="text-blue-600 text-xl hover:underline" href="{{ post.url }}">
       {{ post.data.title }}
