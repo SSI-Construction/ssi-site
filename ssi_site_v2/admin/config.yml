@@ -17,4 +17,5 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Category", name: "category", widget: "select", options: ["Finance", "Scheduling", "Software Update", "Tips & Tricks"], multiple: false, required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false, default: [] }
+      - { label: "Meta Description", name: "description", widget: "text", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
