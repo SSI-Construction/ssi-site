@@ -1,5 +1,12 @@
+---
+permalink: sitemap.xml
+eleventyExcludeFromCollections: true
+---
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  {# Dynamically include all pages Eleventy knows about #}
   {% for page in collections.all %}
     {% if page.url %}
       <url>
@@ -8,4 +15,16 @@
       </url>
     {% endif %}
   {% endfor %}
+
+  {# Manually include static form response pages if they aren't in collections #}
+  <url>
+    <loc>{{ metadata.url }}/thank-you</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>{{ metadata.url }}/review-thank-you</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
