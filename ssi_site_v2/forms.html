@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hidden Forms for Netlify Detection</title>
+</head>
+<body>
+  <!-- This file helps Netlify detect forms during build time -->
+  
+  <!-- Contact Form -->
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <input type="text" name="company" />
+    <textarea name="message"></textarea>
+  </form>
+  
+  <!-- Reviews Form -->
+  <form name="reviews" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="text" name="company" />
+    <textarea name="review"></textarea>
+  </form>
+</body>
+</html>
