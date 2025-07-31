@@ -37,24 +37,27 @@
 
   <section id="contact" class="py-12 text-center bg-white">
     <h2 class="text-2xl font-semibold text-blue-800 mb-6">Contact Us</h2>
-    <form name="contact" method="POST" data-netlify="true" action="/thank-you/" class="max-w-xl mx-auto space-y-4 px-4">
+    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/thank-you/" class="max-w-xl mx-auto space-y-4 px-4">
       <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="subject" value="New Contact Form Submission from SSI Construction Site" />
       <input type="text" name="name" placeholder="Your Name" class="w-full border p-3 rounded" required />
       <input type="email" name="email" placeholder="Your Email" class="w-full border p-3 rounded" required />
       <input type="text" name="company" placeholder="Your Company" class="w-full border p-3 rounded" />
       <textarea name="message" placeholder="Your Message" class="w-full border p-3 rounded" rows="5" required></textarea>
+      <div data-netlify-recaptcha="true"></div>
       <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send Message</button>
-    <form action="/thank-you/" method="POST" data-netlify="true"></form>
     </form>
   </section>
 
   <section id="reviews" class="py-12 bg-gray-50 text-center">
     <h2 class="text-2xl font-semibold text-blue-800 mb-6">Submit a Customer Review</h2>
-    <form name="reviews" method="POST" data-netlify="true" action="/review-thank-you/" class="max-w-xl mx-auto space-y-4 px-4">
+    <form name="reviews" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/review-thank-you/" class="max-w-xl mx-auto space-y-4 px-4">
       <input type="hidden" name="form-name" value="reviews" />
+      <input type="hidden" name="subject" value="New Customer Review Submission from SSI Construction Site" />
       <input type="text" name="name" placeholder="Your Name" class="w-full border p-3 rounded" required />
       <input type="text" name="company" placeholder="Your Company" class="w-full border p-3 rounded" />
       <textarea name="review" placeholder="Your Review" class="w-full border p-3 rounded" rows="4" required></textarea>
+      <div data-netlify-recaptcha="true"></div>
       <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Submit Review</button>
     </form>
     <p class="text-sm text-gray-500 mt-4">* Reviews will be published after admin approval.</p>

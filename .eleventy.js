@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("ssi_site_v2/admin");
   eleventyConfig.addPassthroughCopy("ssi_site_v2/icon_310x310.png");
   eleventyConfig.addPassthroughCopy("ssi_site_v2/ssi_walkthrough.mp4");
+  eleventyConfig.addPassthroughCopy("ssi_site_v2/forms.html");
 
   // Your existing collections
   eleventyConfig.addCollection("posts", function(collectionApi) {
