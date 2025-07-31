@@ -40,6 +40,7 @@
     <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/thank-you/" class="max-w-xl mx-auto space-y-4 px-4">
       <input type="hidden" name="form-name" value="contact" />
       <input type="hidden" name="subject" value="New Contact Form Submission from SSI Construction Site" />
+      <input type="hidden" name="_to" value="info@ssiconstruction.ca" />
       <input type="text" name="name" placeholder="Your Name" class="w-full border p-3 rounded" required />
       <input type="email" name="email" placeholder="Your Email" class="w-full border p-3 rounded" required />
       <input type="text" name="company" placeholder="Your Company" class="w-full border p-3 rounded" />
@@ -54,6 +55,7 @@
     <form name="reviews" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/review-thank-you/" class="max-w-xl mx-auto space-y-4 px-4">
       <input type="hidden" name="form-name" value="reviews" />
       <input type="hidden" name="subject" value="New Customer Review Submission from SSI Construction Site" />
+      <input type="hidden" name="_to" value="info@ssiconstruction.ca" />
       <input type="text" name="name" placeholder="Your Name" class="w-full border p-3 rounded" required />
       <input type="text" name="company" placeholder="Your Company" class="w-full border p-3 rounded" />
       <textarea name="review" placeholder="Your Review" class="w-full border p-3 rounded" rows="4" required></textarea>
