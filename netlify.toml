@@ -1,29 +1,16 @@
-[
-build
-]
+[build]
   publish = "_site"
   command = "npm run build"
 
-[
-build.environment
-]
-  SECRETS_SCAN_OMIT_KEYS = "YOUR_AUTH0_CLIENT_ID,YOUR_AUTH0_DOMAIN"
-  
-[
-context.production.environment
-]
+[context.production.environment]
   SECRETS_SCAN_ENABLED = "false"
 
-[[
-redirects
-]]
+[[redirects]]
   from = "/admin/*"
   to = "/admin/index.html"
   status = 200
   
-[[
-redirects
-]]
+[[redirects]]
   from = "/thank-you"
   to = "/thank-you/"
   status = 301
