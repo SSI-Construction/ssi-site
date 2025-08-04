@@ -2,6 +2,11 @@
   publish = "_site"
   command = "npm run build"
 
+[
+build.environment
+]
+  SECRETS_SCAN_OMIT_KEYS = "YOUR_AUTH0_CLIENT_ID,YOUR_AUTH0_DOMAIN"
+  
 [context.production.environment]
   SECRETS_SCAN_ENABLED = "false"
 
