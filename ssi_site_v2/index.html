@@ -37,14 +37,16 @@
 
   <section id="contact" class="py-12 text-center bg-white">
     <h2 class="text-2xl font-semibold text-blue-800 mb-6">Contact Us</h2>
-    <form name="contact" method="POST" data-netlify="true" action="/thank-you/" class="max-w-xl mx-auto space-y-4 px-4">
-      <input type="hidden" name="form-name" value="contact" />
+    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thank-you/" class="max-w-xl mx-auto space-y-4 px-4"></form>
+      <p class="hidden">
+        <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+      </p>
       <input type="text" name="name" placeholder="Your Name" class="w-full border p-3 rounded" required />
       <input type="email" name="email" placeholder="Your Email" class="w-full border p-3 rounded" required />
       <input type="text" name="company" placeholder="Your Company" class="w-full border p-3 rounded" />
       <textarea name="message" placeholder="Your Message" class="w-full border p-3 rounded" rows="5" required></textarea>
       <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send Message</button>
-      
+
     </form>
   </section>
 
@@ -52,8 +54,10 @@
     <h2 class="text-2xl font-semibold text-blue-800 mb-6">Submit a Customer Review</h2>
     <form name="reviews" method="POST" data-netlify="true" action="/review-thank-you/" class="max-w-xl mx-auto space-y-4 px-4">
       <input type="hidden" name="form-name" value="reviews" />
-      <input type="text" name="name" placeholder="Your Name" class="w-full border p-3 rounded" required />
-      <input type="text" name="company" placeholder="Your Company" class="w-full border p-3 rounded" />
+      <p class="hidden">
+        <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+      </p>
+      <form name="reviews" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/review-thank-you/" class="max-w-xl mx-auto space-y-4 px-4"></form>
       <textarea name="review" placeholder="Your Review" class="w-full border p-3 rounded" rows="4" required></textarea>
       <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Submit Review</button>
     </form>
@@ -63,6 +67,17 @@
   <footer class="bg-gray-800 text-white text-center py-4 text-sm">
     &copy; 2025 SSI Construction Management
   </footer>
-
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+     <input type="text" name="name" />
+     <input type="email" name="email" />
+     <input type="text" name="company" />
+     <textarea name="message"></textarea>
+   </form>
+ 
+   <form name="reviews" netlify netlify-honeypot="bot-field" hidden>
+     <input type="text" name="name" />
+     <input type="text" name="company" />
+     <textarea name="review"></textarea>
+   </form>
 </body>
 </html>
