@@ -41,7 +41,7 @@ A successful project begins with a schedule that is both realistic and achievabl
 * **Establish dependencies**: Identify which tasks must happen in sequence and which can run in parallel.
 * **Assign realistic durations**: Factor in productivity rates, seasonal weather, supply chain timelines, and crew availability.
 * **Include contingency time**: Build in buffers to account for delays without jeopardizing the overall schedule.
-* **Use professional tools**: Software such as Microsoft Project, Primavera P6, or construction-specific management platforms can make scheduling more accurate and easier to adjust.
+* **Use professional tools**: Software such as SSI Construction Manager, Microsoft Project, Primavera P6, or construction-specific management platforms can make scheduling more accurate and easier to adjust.
 
 An achievable schedule gives stakeholders confidence that project milestones can be met without unnecessary risks or surprises.
 
