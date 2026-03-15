@@ -70,6 +70,6 @@ They make sure that what’s on paper becomes reality—**on time, on budget, an
 
 - - -
 
-Want more insights like this? Check out how **SSI Construction Manager** helps construction pros stay in control. Available now on Microsoft store.
+Want more insights like this? Check out how **[SSI Construction Manager](https://app.ssiconstruction.ca)** helps construction pros stay in control.
 
 <!--EndFragment-->

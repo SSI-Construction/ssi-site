@@ -85,7 +85,7 @@ Whether you're managing a skyscraper or a single-family home, these 5 skills wil
 
 ### Want More Like This?
 
-Follow our blog for more tips, insights, and tools to help you succeed in construction management. And if you’re looking for an all-in-one platform to manage your projects, try **[SSI Construction Manager](https://ssiconstruction.ca)**—built for pros like you available now on Microsoft store.
+Follow our blog for more tips, insights, and tools to help you succeed in construction management. And if you’re looking for an all-in-one platform to manage your projects, try **[SSI Construction Manager](https://app.ssiconstruction.ca)**—built for pros like you.
 
 <!--EndFragment-->
 

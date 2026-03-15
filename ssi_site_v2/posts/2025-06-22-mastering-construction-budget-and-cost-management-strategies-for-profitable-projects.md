@@ -123,6 +123,6 @@ Success in construction comes down to planning, precision, and proactivity. By m
 
 Looking for a smarter way to manage your construction finances?
 
-👉 Try **SSI Construction Manager** — a powerful, all-in-one solution designed for modern construction professionals. Streamline your budgeting, track costs in real-time, and make data-driven decisions from day one. Available now on Microsoft store.
+👉 Try **[SSI Construction Manager](https://app.ssiconstruction.ca)** — a powerful, all-in-one solution designed for modern construction professionals. Streamline your budgeting, track costs in real-time, and make data-driven decisions from day one.
 
 <!--EndFragment-->
