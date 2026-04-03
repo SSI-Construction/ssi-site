@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instructional Videos – SSI Construction Manager</title>
+  <link rel="icon" type="image/png" href="/icon_310x310.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .video-row { cursor: pointer; transition: background-color 0.2s; }
+    .video-row:hover { background-color: #eff6ff; }
+    .video-container { display: none; }
+    .video-container.active { display: block; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <header class="bg-white shadow-md py-8 text-center">
+    <a href="/">
+      <img src="/icon_310x310.png" alt="SSI Logo" class="w-24 mx-auto mb-4 rounded-full">
+    </a>
+    <h1 class="text-4xl font-bold text-blue-700">Instructional Videos</h1>
+    <p class="text-gray-600 mt-2">Learn how to use SSI Construction Manager step by step</p>
+  </header>
+
+  <nav class="bg-gray-100 text-center py-4 space-x-4">
+    <a href="/" class="text-blue-700 hover:underline">Home</a>
+    <a href="/blog/" class="text-blue-700 hover:underline">Blog</a>
+    <a href="/#contact" class="text-blue-700 hover:underline">Contact</a>
+    <a href="getting-started.html" class="text-blue-700 hover:underline">Getting Started</a>
+  </nav>
+
+  <section class="max-w-4xl mx-auto py-12 px-4">
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+      <table class="w-full text-left">
+        <thead class="bg-blue-700 text-white">
+          <tr>
+            <th class="px-6 py-4 text-sm font-semibold">#</th>
+            <th class="px-6 py-4 text-sm font-semibold">Title</th>
+            <th class="px-6 py-4 text-sm font-semibold">Description</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+          <tr class="video-row" data-video="video-1">
+            <td class="px-6 py-4 text-gray-700">1</td>
+            <td class="px-6 py-4 font-medium text-blue-800">How to Sign Up for SSI Construction Manager</td>
+            <td class="px-6 py-4 text-gray-600">Step-by-step walkthrough of the sign-up process for new users.</td>
+          </tr>
+          <tr class="video-row" data-video="video-2">
+            <td class="px-6 py-4 text-gray-700">2</td>
+            <td class="px-6 py-4 font-medium text-blue-800">How to Use the Setting Tab</td>
+            <td class="px-6 py-4 text-gray-600">Learn how to configure your project settings within the application.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Video Players -->
+    <div id="video-1" class="video-container mt-8 text-center">
+      <h2 class="text-xl font-semibold text-blue-800 mb-4">How to Sign Up for SSI Construction Manager</h2>
+      <video class="mx-auto shadow-lg rounded-xl" width="720" height="480" controls>
+        <source src="/sign-up.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <button onclick="closeVideo('video-1')" class="mt-4 text-sm text-gray-500 hover:text-gray-700 underline">Close video</button>
+    </div>
+
+    <div id="video-2" class="video-container mt-8 text-center">
+      <h2 class="text-xl font-semibold text-blue-800 mb-4">How to Use the Setting Tab</h2>
+      <video class="mx-auto shadow-lg rounded-xl" width="720" height="480" controls>
+        <source src="/setting-tab.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <button onclick="closeVideo('video-2')" class="mt-4 text-sm text-gray-500 hover:text-gray-700 underline">Close video</button>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white text-center py-4 text-sm">
+    &copy; 2025 SSI Construction Management
+  </footer>
+
+  <script>
+    document.querySelectorAll('.video-row').forEach(function(row) {
+      row.addEventListener('click', function() {
+        var videoId = this.getAttribute('data-video');
+
+        // Hide all video containers and pause their videos
+        document.querySelectorAll('.video-container').forEach(function(container) {
+          container.classList.remove('active');
+          var video = container.querySelector('video');
+          if (video) { video.pause(); }
+        });
+
+        // Show the selected video
+        var target = document.getElementById(videoId);
+        target.classList.add('active');
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    function closeVideo(videoId) {
+      var container = document.getElementById(videoId);
+      var video = container.querySelector('video');
+      if (video) { video.pause(); }
+      container.classList.remove('active');
+    }
+  </script>
+</body>
+</html>
