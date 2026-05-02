@@ -106,6 +106,25 @@
           { "@type": "Country", "name": "Australia" },
           { "@type": "Country", "name": "New Zealand" }
         ]
+      },
+      {
+        "@type": "Offer",
+        "name": "Crew Time Clock add-on",
+        "price": "25.00",
+        "priceCurrency": "CAD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "25.00",
+          "priceCurrency": "CAD",
+          "unitCode": "MON",
+          "referenceQuantity": { "@type": "QuantitativeValue", "value": "1", "unitCode": "MON" }
+        },
+        "availability": "https://schema.org/InStock",
+        "eligibleRegion": [
+          { "@type": "Country", "name": "Canada" },
+          { "@type": "Country", "name": "Australia" },
+          { "@type": "Country", "name": "New Zealand" }
+        ]
       }
     ],
     "featureList": [
@@ -113,6 +132,7 @@
       "Schedules with dependencies and Gantt charts",
       "Purchase orders linked to cost codes",
       "Invoice tracking against POs",
+      "Crew time clock add-on for daily labour tracking",
       "One-click PDF reports for owners and consultants",
       "Look-ahead schedules with email reminders to trades"
     ],
@@ -192,6 +212,7 @@
   <nav class="bg-gray-100 text-center py-4 space-x-4">
     <a href="#video" class="text-blue-700 hover:underline">Video</a>
     <a href="/instructional-videos.html" class="text-blue-700 hover:underline">Instructional Videos</a>
+    <a href="#pricing" class="text-blue-700 hover:underline">Pricing</a>
     <a href="/blog/" class="text-blue-700 hover:underline">Blog</a>
     <a href="#contact" class="text-blue-700 hover:underline">Contact</a>
     <a href="#reviews" class="text-blue-700 hover:underline">Reviews</a>
@@ -213,6 +234,78 @@
   </section>
 
   <!-- Blog section will be inserted here LATER -->
+
+  <section id="pricing" class="py-16 bg-gray-50">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-blue-800">Simple, transparent pricing</h2>
+        <p class="text-gray-600 mt-3 max-w-2xl mx-auto">
+          All prices in <strong>CAD</strong>, billed monthly. Stripe automatically converts to your local currency at checkout. Available to builders in Canada, Australia, and New Zealand.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Administrator seat -->
+        <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6 flex flex-col">
+          <h3 class="text-xl font-semibold text-blue-700">Administrator Seat</h3>
+          <p class="text-sm text-gray-500 mt-1">Full access for project managers and owners.</p>
+          <p class="mt-4">
+            <span class="text-4xl font-bold text-gray-900">$60</span>
+            <span class="text-gray-600"> CAD / month</span>
+          </p>
+          <ul class="mt-5 space-y-2 text-sm text-gray-700 flex-1">
+            <li>✓ Unlimited projects</li>
+            <li>✓ Budgets, schedules, POs, invoices</li>
+            <li>✓ PDF reports for owners and consultants</li>
+            <li>✓ Email reminders to trades</li>
+            <li>✓ Priority support</li>
+          </ul>
+          <a href="https://app.ssiconstruction.ca" class="mt-6 inline-block text-center bg-blue-600 text-white px-5 py-2.5 rounded-lg hover:bg-blue-700 transition">Start free trial</a>
+        </div>
+
+        <!-- Additional user seat -->
+        <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6 flex flex-col">
+          <h3 class="text-xl font-semibold text-blue-700">Additional User Seat</h3>
+          <p class="text-sm text-gray-500 mt-1">Add team members to an existing account.</p>
+          <p class="mt-4">
+            <span class="text-4xl font-bold text-gray-900">$20</span>
+            <span class="text-gray-600"> CAD / month</span>
+          </p>
+          <ul class="mt-5 space-y-2 text-sm text-gray-700 flex-1">
+            <li>✓ Project access controlled by admin</li>
+            <li>✓ View schedules and look-aheads</li>
+            <li>✓ Update progress and quantities</li>
+            <li>✓ Add POs and invoices (per permissions)</li>
+            <li>✓ Mobile-friendly</li>
+          </ul>
+          <a href="https://app.ssiconstruction.ca" class="mt-6 inline-block text-center bg-blue-600 text-white px-5 py-2.5 rounded-lg hover:bg-blue-700 transition">Add to your plan</a>
+        </div>
+
+        <!-- Crew Time Clock add-on -->
+        <div class="bg-white rounded-xl shadow-md border-2 border-blue-200 p-6 flex flex-col relative">
+          <span class="absolute -top-3 right-4 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">Add-on</span>
+          <h3 class="text-xl font-semibold text-blue-700">Crew Time Clock</h3>
+          <p class="text-sm text-gray-500 mt-1">Daily labour tracking for your crews.</p>
+          <p class="mt-4">
+            <span class="text-4xl font-bold text-gray-900">$25</span>
+            <span class="text-gray-600"> CAD / month</span>
+          </p>
+          <ul class="mt-5 space-y-2 text-sm text-gray-700 flex-1">
+            <li>✓ Crew clock-in / clock-out</li>
+            <li>✓ Hours logged per project and cost code</li>
+            <li>✓ Daily labour cost roll-up</li>
+            <li>✓ Exportable timesheets</li>
+            <li>✓ Add to any active subscription</li>
+          </ul>
+          <a href="https://app.ssiconstruction.ca" class="mt-6 inline-block text-center bg-blue-600 text-white px-5 py-2.5 rounded-lg hover:bg-blue-700 transition">Add Time Clock</a>
+        </div>
+      </div>
+
+      <p class="text-center text-sm text-gray-500 mt-8">
+        Have questions about pricing or need a quote for a larger team? <a href="#contact" class="text-blue-700 underline">Contact us</a>.
+      </p>
+    </div>
+  </section>
 
   <section id="contact" class="py-12 text-center bg-white">
     <h2 class="text-2xl font-semibold text-blue-800 mb-6">Contact Us</h2>
@@ -243,7 +336,7 @@
   </section>
 
   <footer class="bg-gray-800 text-white text-center py-4 text-sm">
-    &copy; 2025 SSI Construction Management
+    &copy; 2026 SSI Construction Management
   </footer>
   
   <!-- Holiday Theme Script -->
