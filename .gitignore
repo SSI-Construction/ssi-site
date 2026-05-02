@@ -5,6 +5,7 @@ _site/
 ssi_site_v2/styles.css
 
 # Root-level source video files (not needed in deploy)
-SSI COnstruction Manager Overview Rev2.mp4
-SSI Construction Manager Overview.mp4
-SSI Trade Manager Overview.mp4
+/*.mp4
+# Backup/old videos in deploy folder (not referenced by site)
+ssi_site_v2/ssi-construction-manager-overview-old.mp4
+ssi_site_v2/ssi-construction-manager-overview-rev2-backup.mp4
