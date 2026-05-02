@@ -68,17 +68,46 @@
     "url": "https://app.ssiconstruction.ca",
     "description": "Affordable, all-in-one construction management software for budgets, schedules, purchase orders, and invoices. Built for small and mid-size builders.",
     "image": "https://ssiconstruction.ca/icon_310x310.png",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "CAD",
-      "availability": "https://schema.org/InStock",
-      "eligibleRegion": [
-        { "@type": "Country", "name": "Canada" },
-        { "@type": "Country", "name": "Australia" },
-        { "@type": "Country", "name": "New Zealand" }
-      ]
-    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Administrator seat",
+        "price": "60.00",
+        "priceCurrency": "CAD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "60.00",
+          "priceCurrency": "CAD",
+          "unitCode": "MON",
+          "referenceQuantity": { "@type": "QuantitativeValue", "value": "1", "unitCode": "MON" }
+        },
+        "availability": "https://schema.org/InStock",
+        "eligibleRegion": [
+          { "@type": "Country", "name": "Canada" },
+          { "@type": "Country", "name": "Australia" },
+          { "@type": "Country", "name": "New Zealand" }
+        ]
+      },
+      {
+        "@type": "Offer",
+        "name": "Additional user seat",
+        "price": "20.00",
+        "priceCurrency": "CAD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "20.00",
+          "priceCurrency": "CAD",
+          "unitCode": "MON",
+          "referenceQuantity": { "@type": "QuantitativeValue", "value": "1", "unitCode": "MON" }
+        },
+        "availability": "https://schema.org/InStock",
+        "eligibleRegion": [
+          { "@type": "Country", "name": "Canada" },
+          { "@type": "Country", "name": "Australia" },
+          { "@type": "Country", "name": "New Zealand" }
+        ]
+      }
+    ],
     "featureList": [
       "Construction project budgets with CSI MasterFormat divisions",
       "Schedules with dependencies and Gantt charts",
