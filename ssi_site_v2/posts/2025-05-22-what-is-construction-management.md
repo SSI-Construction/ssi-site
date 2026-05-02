@@ -3,9 +3,12 @@ title: "What Is Construction Management?"
 date: 2025-05-18T14:33:00.000Z
 category: Tips & Tricks
 tags:
-  - construction management  what is construction management  construction
-    manager role  construction project management  building project
-    management  construction process explained
+  - construction management
+  - what is construction management
+  - construction manager role
+  - construction project management
+  - building project management
+  - construction process explained
 description: Discover what construction management is all about! Learn how
   construction managers plan, coordinate, and deliver successful building
   projects on time and on budget.

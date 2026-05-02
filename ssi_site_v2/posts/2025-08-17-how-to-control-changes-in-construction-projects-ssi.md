@@ -1,12 +1,16 @@
 ---
-title: How to Control Changes in Construction Projects | SSI
+title: How to Control Changes in Construction Projects
 date: 2025-08-17T20:56:44.291Z
 category: Tips & Tricks
 tags:
-  - construction project management  construction change control  project scope
-    management  managing construction changes  cost control in
-    construction  schedule delays in construction  construction risk
-    management  change order process
+  - construction project management
+  - construction change control
+  - project scope management
+  - managing construction changes
+  - cost control in construction
+  - schedule delays in construction
+  - construction risk management
+  - change order process
 description: Learn effective strategies to mitigate and control changes in
   construction projects. Reduce cost overruns, delays, and risks with proven
   change management tips.

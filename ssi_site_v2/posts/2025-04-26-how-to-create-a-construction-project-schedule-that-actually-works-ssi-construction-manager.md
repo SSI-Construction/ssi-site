@@ -1,11 +1,13 @@
 ---
-title: How to Create a Construction Project Schedule That Actually Works | SSI
-  Construction Manager
+title: "How to Create a Construction Project Schedule That Actually Works"
 date: 2025-04-26T21:31:06.724Z
 category: Scheduling
 tags:
-  - Project Management  Construction Scheduling  Look-Ahead Planning  On-Time
-    Delivery  Construction Best Practices
+  - project management
+  - construction scheduling
+  - look-ahead planning
+  - on-time delivery
+  - construction best practices
 description: Learn step-by-step how to create a realistic construction schedule
   that keeps your project on time, on budget, and fully organized. Start with
   SSI Construction Manager today!
