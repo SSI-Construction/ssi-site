@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("ssi_site_v2/admin");
   eleventyConfig.addPassthroughCopy("ssi_site_v2/icon_310x310.png");
   eleventyConfig.addPassthroughCopy("ssi_site_v2/styles.css");
+  eleventyConfig.addPassthroughCopy("ssi_site_v2/_redirects");
   eleventyConfig.addPassthroughCopy("ssi_site_v2/sign-up.mp4");
   eleventyConfig.addPassthroughCopy("ssi_site_v2/setting-tab.mp4");
   eleventyConfig.addPassthroughCopy("ssi_site_v2/ssi-construction-manager-overview.mp4");

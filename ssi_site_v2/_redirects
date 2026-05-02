@@ -1,3 +1,6 @@
 /invite_token=:token  /admin/  302!
 
+# 301 redirects: consolidated duplicate construction schedule posts to the new master schedule guide
+/posts/2025-04-26-how-to-create-a-construction-project-schedule-that-actually-works-ssi-construction-manager/  /posts/2026-05-02-how-to-create-a-construction-master-schedule-with-ssi-construction-manager/  301!
+/posts/2025-04-26-how-to-create-a-construction-schedule-with-ssi-construction-manager/  /posts/2026-05-02-how-to-create-a-construction-master-schedule-with-ssi-construction-manager/  301!
 
