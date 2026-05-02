@@ -76,9 +76,124 @@
     gtag('config', 'G-HF5TN869RM');
   </script>
 </head>
-<body class="bg-gray-50 text-gray-800">
-  <main>
-    {{ content | safe }}
+<body class="bg-gray-50 text-gray-800 antialiased flex flex-col min-h-screen">
+
+  {# --- Site header / nav (skipped on the homepage which has its own hero) --- #}
+  {% if page.url != "/" %}
+  <header class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-40">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3 group">
+        <img src="/icon_310x310.png" alt="SSI logo" class="w-9 h-9 rounded-full">
+        <span class="font-semibold text-blue-700 group-hover:text-blue-800">SSI Construction Manager</span>
+      </a>
+      <nav class="text-sm space-x-4 hidden sm:block">
+        <a href="/" class="text-gray-600 hover:text-blue-700">Home</a>
+        <a href="/blog/" class="text-gray-600 hover:text-blue-700">Blog</a>
+        <a href="/instructional-videos.html" class="text-gray-600 hover:text-blue-700">Videos</a>
+        <a href="/getting-started.html" class="text-gray-600 hover:text-blue-700">Getting Started</a>
+        <a href="https://app.ssiconstruction.ca" target="_blank" rel="noopener"
+           class="bg-blue-600 text-white px-3 py-1.5 rounded-full hover:bg-blue-700">Sign In</a>
+      </nav>
+    </div>
+  </header>
+  {% endif %}
+
+  {% set isPost = page.url.startsWith('/posts/') %}
+
+  <main class="flex-1">
+    {% if isPost %}
+      <article class="max-w-3xl mx-auto px-4 sm:px-6 py-10">
+        {# Post hero header #}
+        <header class="mb-8 pb-6 border-b border-gray-200">
+          <p class="text-sm text-blue-600 font-semibold uppercase tracking-wide mb-2">
+            {{ category or "Article" }}
+          </p>
+          <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">{{ title }}</h1>
+          {% if description %}
+            <p class="mt-4 text-lg text-gray-600 leading-relaxed">{{ description }}</p>
+          {% endif %}
+          <div class="mt-4 flex items-center gap-3 text-sm text-gray-500">
+            <img src="/icon_310x310.png" alt="" class="w-8 h-8 rounded-full">
+            <span>SSI Construction Manager</span>
+            <span aria-hidden="true">·</span>
+            <time datetime="{{ page.date.toISOString() }}">{{ page.date | postDate }}</time>
+          </div>
+          {% if tags and tags.length %}
+            <ul class="mt-4 flex flex-wrap gap-2">
+              {% for tag in tags %}
+                <li class="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-100">{{ tag }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </header>
+
+        {# Post body — Tailwind Typography styles markdown nicely #}
+        <div class="prose prose-blue prose-lg max-w-none
+                    prose-headings:scroll-mt-24
+                    prose-headings:text-gray-900
+                    prose-h2:mt-12 prose-h2:pb-2 prose-h2:border-b prose-h2:border-gray-200
+                    prose-a:text-blue-600 hover:prose-a:text-blue-800
+                    prose-strong:text-gray-900
+                    prose-blockquote:border-l-4 prose-blockquote:border-blue-500
+                    prose-blockquote:bg-blue-50 prose-blockquote:py-1 prose-blockquote:px-4
+                    prose-blockquote:not-italic prose-blockquote:text-gray-700
+                    prose-table:text-sm
+                    prose-th:bg-gray-100 prose-th:text-gray-900
+                    prose-code:text-pink-600 prose-code:bg-pink-50 prose-code:px-1 prose-code:rounded
+                    prose-code:before:content-none prose-code:after:content-none">
+          {{ content | safe }}
+        </div>
+
+        {# CTA at the end of every post #}
+        <aside class="mt-12 p-6 bg-gradient-to-br from-blue-600 to-blue-700 text-white rounded-2xl shadow-lg">
+          <h2 class="text-xl font-bold mb-2">Ready to try SSI Construction Manager?</h2>
+          <p class="text-blue-100 mb-4">Plan budgets, build schedules, track POs and invoices — all in one affordable tool built by builders, for builders.</p>
+          <a href="https://app.ssiconstruction.ca" target="_blank" rel="noopener"
+             class="inline-block bg-white text-blue-700 font-semibold px-5 py-2.5 rounded-full hover:bg-blue-50">
+            Open the App →
+          </a>
+        </aside>
+
+        <p class="mt-8 text-sm">
+          <a href="/blog/" class="text-blue-600 hover:text-blue-800">← Back to all articles</a>
+        </p>
+      </article>
+    {% else %}
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 py-10">
+        {{ content | safe }}
+      </div>
+    {% endif %}
   </main>
+
+  <footer class="bg-gray-900 text-gray-300 mt-16">
+    <div class="max-w-5xl mx-auto px-4 py-8 grid sm:grid-cols-3 gap-6 text-sm">
+      <div>
+        <div class="flex items-center gap-2 mb-2">
+          <img src="/icon_310x310.png" alt="" class="w-6 h-6 rounded-full">
+          <span class="font-semibold text-white">SSI Construction Manager</span>
+        </div>
+        <p class="text-gray-400">The most powerful, affordable tool for managing construction projects.</p>
+      </div>
+      <div>
+        <h3 class="text-white font-semibold mb-2">Product</h3>
+        <ul class="space-y-1">
+          <li><a href="https://app.ssiconstruction.ca" class="hover:text-white">Open the App</a></li>
+          <li><a href="/getting-started.html" class="hover:text-white">Getting Started</a></li>
+          <li><a href="/instructional-videos.html" class="hover:text-white">Videos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-white font-semibold mb-2">Company</h3>
+        <ul class="space-y-1">
+          <li><a href="/blog/" class="hover:text-white">Blog</a></li>
+          <li><a href="/#contact" class="hover:text-white">Contact</a></li>
+          <li><a href="/#reviews" class="hover:text-white">Reviews</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-gray-800 text-center text-xs text-gray-500 py-4">
+      &copy; 2025 SSI Construction Management
+    </div>
+  </footer>
 </body>
 </html>
