@@ -1,6 +1,7 @@
 ---
 title: "How to Control Changes in Construction Projects"
 date: 2025-08-17T20:56:44.291Z
+updated: 2026-05-02T00:00:00.000Z
 category: Tips & Tricks
 layout: layout.njk
 tags:

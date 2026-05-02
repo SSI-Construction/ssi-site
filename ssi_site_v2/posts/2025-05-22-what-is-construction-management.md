@@ -1,6 +1,7 @@
 ---
 title: "What Is Construction Management? A Practical Guide for Owners, Trades, and New PMs"
 date: 2025-05-18T14:33:00.000Z
+updated: 2026-05-02T00:00:00.000Z
 category: Tips & Tricks
 layout: layout.njk
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Controlling Your Construction Budget with SSI Construction Manager"
 date: 2025-04-25T00:38:42.046Z
+updated: 2026-05-02T00:00:00.000Z
 category: Finance
 layout: layout.njk
 tags:

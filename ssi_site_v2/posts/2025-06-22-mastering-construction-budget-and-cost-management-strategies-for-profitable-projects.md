@@ -1,6 +1,7 @@
 ---
 title: "Mastering Construction Budget and Cost Management: Strategies for Profitable Projects"
 date: 2025-06-22T13:55:20.134Z
+updated: 2026-05-02T00:00:00.000Z
 category: Tips & Tricks
 layout: layout.njk
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "What Makes a Great Construction Manager? 5 Must-Have Skills for Success"
 date: 2025-05-18T18:55:30.477Z
+updated: 2026-05-02T00:00:00.000Z
 category: Tips & Tricks
 layout: layout.njk
 tags:

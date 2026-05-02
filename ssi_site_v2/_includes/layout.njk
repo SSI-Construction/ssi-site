@@ -53,6 +53,7 @@
     "headline": "{{ title }}",
     "description": "{{ description }}",
     "datePublished": "{{ page.date.toISOString() }}",
+    "dateModified": "{% if updated %}{{ updated.toISOString() }}{% else %}{{ page.date.toISOString() }}{% endif %}",
     "image": "{{ metadata.url }}/icon_310x310.png",
     "author": { "@type": "Organization", "name": "SSI Construction Manager" },
     "publisher": {
@@ -117,6 +118,10 @@
             <span>SSI Construction Manager</span>
             <span aria-hidden="true">·</span>
             <time datetime="{{ page.date.toISOString() }}">{{ page.date | postDate }}</time>
+            {% if updated %}
+              <span aria-hidden="true">·</span>
+              <span class="text-gray-500">Updated <time datetime="{{ updated.toISOString() }}">{{ updated | postDate }}</time></span>
+            {% endif %}
           </div>
           {% if tags and tags.length %}
             <ul class="mt-4 flex flex-wrap gap-2">
