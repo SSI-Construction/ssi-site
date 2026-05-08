@@ -121,6 +121,46 @@
   }
   </script>
 
+  <!-- FAQ structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does SSI Construction Manager cost?",
+        "acceptedAnswer": { "@type": "Answer", "text": "SSI Construction Manager is $60 CAD per month for an admin seat with unlimited projects. Additional user seats are $20 CAD/month (free if the user is already an SSI subscriber), and the optional Crew Time Clock add-on is $25 CAD/month." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a free trial?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every new admin account starts with a 60-day free trial. No credit card is required to begin." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is SSI Construction Manager a good Procore alternative for small builders?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. SSI Construction Manager is built specifically for small and mid-size builders, residential contractors, and trades who need budgets, schedules, purchase orders, and invoice tracking without enterprise pricing or per-project fees." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does SSI Construction Manager support CSI MasterFormat?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. CSI MasterFormat divisions are pre-loaded into every project. Each division becomes a cost code that ties together your budget, purchase orders, and invoices for accurate cost control." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use SSI Construction Manager outside Canada?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Pricing is in CAD and Stripe automatically converts to your local currency at checkout. Builders worldwide use SSI Construction Manager." }
+      },
+      {
+        "@type": "Question",
+        "name": "What features are included with SSI Construction Manager?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Project budgets with CSI MasterFormat divisions, schedules with dependencies and Gantt charts, purchase orders linked to cost codes, invoice tracking against POs, one-click PDF reports, and look-ahead schedules with email reminders to trades." }
+      }
+    ]
+  }
+  </script>
+
   <link rel="stylesheet" href="/styles.css">
 
   <!-- Google Analytics 4 -->
@@ -193,7 +233,8 @@
   <nav class="bg-gray-100 text-center py-4 space-x-4">
     <a href="#video" class="text-blue-700 hover:underline">Video</a>
     <a href="/instructional-videos.html" class="text-blue-700 hover:underline">Instructional Videos</a>
-    <a href="#pricing" class="text-blue-700 hover:underline">Pricing</a>
+    <a href="/pricing/" class="text-blue-700 hover:underline">Pricing</a>
+    <a href="/procore-alternatives/" class="text-blue-700 hover:underline">Compare</a>
     <a href="/blog/" class="text-blue-700 hover:underline">Blog</a>
     <a href="#contact" class="text-blue-700 hover:underline">Contact</a>
     <a href="#reviews" class="text-blue-700 hover:underline">Reviews</a>
@@ -299,7 +340,40 @@
 
       <p class="text-center text-sm text-gray-500 mt-8">
         Have questions about pricing or need a quote for a larger team? <a href="#contact" class="text-blue-700 underline">Contact us</a>.
+        See full details on our <a href="/pricing/" class="text-blue-700 underline">pricing page</a> or compare us to <a href="/procore-alternatives/" class="text-blue-700 underline">Procore and Buildertrend</a>.
       </p>
+    </div>
+  </section>
+
+  <section id="faq" class="py-16 bg-white">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-blue-800 text-center mb-10">Frequently asked questions</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">How much does SSI Construction Manager cost?</h3>
+          <p class="text-gray-700 mt-1">$60&nbsp;CAD per month for an admin seat with unlimited projects. Additional user seats are $20&nbsp;CAD/month (free if the user already has an SSI subscription), and the optional Crew Time Clock add-on is $25&nbsp;CAD/month. <a href="/pricing/" class="text-blue-700 underline">See full pricing</a>.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">Is there a free trial?</h3>
+          <p class="text-gray-700 mt-1">Yes — every new admin account starts with a 60-day free trial, no credit card required.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">Is SSI a good Procore alternative for small builders?</h3>
+          <p class="text-gray-700 mt-1">Yes. SSI is built specifically for small and mid-size builders, residential contractors, and trades who need budgets, schedules, POs, and invoice tracking without enterprise pricing. <a href="/procore-alternatives/" class="text-blue-700 underline">See the comparison</a>.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">Does SSI support CSI MasterFormat?</h3>
+          <p class="text-gray-700 mt-1">Yes. CSI MasterFormat divisions are pre-loaded into every project. Each division becomes a cost code that ties your budget, POs, and invoices together.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">Can I use SSI Construction Manager outside Canada?</h3>
+          <p class="text-gray-700 mt-1">Yes. Pricing is in CAD and Stripe automatically converts to your local currency at checkout. Builders worldwide use SSI.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900">What's included with my subscription?</h3>
+          <p class="text-gray-700 mt-1">Budgets with CSI MasterFormat divisions, schedules with dependencies and Gantt charts, purchase orders linked to cost codes, invoice tracking, PDF reports, and look-ahead schedules with email reminders to trades.</p>
+        </div>
+      </div>
     </div>
   </section>
 

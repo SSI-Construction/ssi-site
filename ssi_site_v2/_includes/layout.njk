@@ -10,6 +10,7 @@
 
   {# --- Canonical URL --- #}
   <link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
+  {% if noindex %}<meta name="robots" content="noindex">{% endif %}
   <meta name="geo.region" content="CA">
   <meta name="geo.placename" content="Canada">
 
@@ -102,6 +103,8 @@
       </a>
       <nav class="text-sm space-x-4 hidden sm:block">
         <a href="/" class="text-gray-600 hover:text-blue-700">Home</a>
+        <a href="/pricing/" class="text-gray-600 hover:text-blue-700">Pricing</a>
+        <a href="/procore-alternatives/" class="text-gray-600 hover:text-blue-700">Compare</a>
         <a href="/blog/" class="text-gray-600 hover:text-blue-700">Blog</a>
         <a href="/instructional-videos.html" class="text-gray-600 hover:text-blue-700">Videos</a>
         <a href="/getting-started.html" class="text-gray-600 hover:text-blue-700">Getting Started</a>
@@ -196,6 +199,8 @@
         <h3 class="text-white font-semibold mb-2">Product</h3>
         <ul class="space-y-1">
           <li><a href="https://app.ssiconstruction.ca" class="hover:text-white">Open the App</a></li>
+          <li><a href="/pricing/" class="hover:text-white">Pricing</a></li>
+          <li><a href="/procore-alternatives/" class="hover:text-white">vs. Procore &amp; Buildertrend</a></li>
           <li><a href="/getting-started.html" class="hover:text-white">Getting Started</a></li>
           <li><a href="/instructional-videos.html" class="hover:text-white">Videos</a></li>
         </ul>

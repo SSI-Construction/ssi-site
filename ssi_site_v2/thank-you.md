@@ -2,6 +2,8 @@
 permalink: /thank-you/
 title: Thank You
 layout: layout.njk
+eleventyExcludeFromCollections: true
+noindex: true
 ---
 
 <div class="text-center py-12">

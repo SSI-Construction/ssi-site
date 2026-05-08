@@ -6,25 +6,21 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  {# Dynamically include all pages Eleventy knows about #}
+  {# Dynamically include all pages Eleventy knows about, except utility/admin pages #}
+  {% set excludePrefixes = ["/admin/", "/thank-you/", "/review-thank-you/"] %}
   {% for page in collections.all %}
     {% if page.url %}
+      {% set skip = false %}
+      {% for prefix in excludePrefixes %}
+        {% if page.url.startsWith(prefix) %}{% set skip = true %}{% endif %}
+      {% endfor %}
+      {% if not skip %}
       <url>
         <loc>{{ metadata.url }}{{ page.url | url }}</loc>
         <priority>{% if page.url == "/" %}1.0{% else %}0.5{% endif %}</priority>
       </url>
+      {% endif %}
     {% endif %}
   {% endfor %}
-
-  {# Manually include static form response pages if they aren't in collections #}
-  <url>
-    <loc>{{ metadata.url }}/thank-you</loc>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>{{ metadata.url }}/review-thank-you</loc>
-    <priority>0.6</priority>
-  </url>
 
 </urlset>
