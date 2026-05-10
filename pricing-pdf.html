@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>SSI Construction Manager — Pricing</title>
+<style>
+  @page { size: Letter; margin: 0.5in; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #1f2937;
+    margin: 0;
+    line-height: 1.45;
+    font-size: 11pt;
+  }
+  header {
+    border-bottom: 3px solid #2563eb;
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  header h1 {
+    font-size: 22pt;
+    margin: 0;
+    color: #1e3a8a;
+  }
+  header .sub {
+    font-size: 10pt;
+    color: #6b7280;
+    text-align: right;
+  }
+  h2.section {
+    font-size: 13pt;
+    color: #1e3a8a;
+    border-left: 4px solid #2563eb;
+    padding-left: 8px;
+    margin: 18px 0 10px;
+  }
+  .intro {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 10.5pt;
+  }
+  .intro strong { color: #1e3a8a; }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  .card {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 12px;
+    page-break-inside: avoid;
+    background: #fff;
+  }
+  .card.featured { border: 2px solid #2563eb; }
+  .card h3 {
+    margin: 0 0 4px;
+    font-size: 12pt;
+    color: #1d4ed8;
+  }
+  .card .desc {
+    color: #6b7280;
+    font-size: 9pt;
+    margin: 0 0 8px;
+  }
+  .price {
+    font-size: 18pt;
+    font-weight: 700;
+    color: #111827;
+  }
+  .price small {
+    font-size: 9pt;
+    font-weight: 400;
+    color: #6b7280;
+  }
+  .badge {
+    display: inline-block;
+    background: #ecfdf5;
+    color: #047857;
+    border: 1px solid #a7f3d0;
+    border-radius: 999px;
+    padding: 2px 8px;
+    font-size: 8pt;
+    font-weight: 600;
+    margin-top: 6px;
+  }
+  .addon-tag {
+    float: right;
+    background: #2563eb;
+    color: #fff;
+    border-radius: 999px;
+    padding: 2px 8px;
+    font-size: 8pt;
+    font-weight: 600;
+  }
+  ul.features {
+    padding: 0;
+    margin: 8px 0 0;
+    list-style: none;
+    font-size: 9.5pt;
+  }
+  ul.features li {
+    padding: 2px 0 2px 14px;
+    position: relative;
+  }
+  ul.features li::before {
+    content: "✓";
+    color: #059669;
+    position: absolute;
+    left: 0;
+    font-weight: 700;
+  }
+
+  table.compare {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9.5pt;
+    margin-top: 4px;
+  }
+  table.compare th, table.compare td {
+    border: 1px solid #e5e7eb;
+    padding: 6px 8px;
+    text-align: left;
+  }
+  table.compare thead {
+    background: #f3f4f6;
+    color: #111827;
+  }
+  table.compare tr.us td { background: #eff6ff; font-weight: 600; color: #1e3a8a; }
+
+  .faq { font-size: 10pt; }
+  .faq dt { font-weight: 600; color: #111827; margin-top: 8px; }
+  .faq dd { margin: 2px 0 0; color: #374151; }
+
+  footer {
+    margin-top: 22px;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 8px;
+    font-size: 8.5pt;
+    color: #6b7280;
+    display: flex;
+    justify-content: space-between;
+  }
+  a { color: #1d4ed8; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>SSI Construction Manager</h1>
+    <div style="color:#6b7280;font-size:10.5pt;margin-top:2px;">
+      Affordable construction management software — flat pricing, no contracts.
+    </div>
+  </div>
+  <div class="sub">
+    <div><strong>ssiconstruction.ca</strong></div>
+    <div>Pricing effective May 2026</div>
+    <div>All prices in CAD</div>
+  </div>
+</header>
+
+<div class="intro">
+  Flat <strong>$60&nbsp;CAD / month</strong> for full admin access — a fraction of the cost of enterprise tools like Procore or Buildertrend.
+  No hidden fees, no per-project charges, and a <strong>60-day free trial</strong>. Stripe automatically converts to your local currency at checkout.
+</div>
+
+<h2 class="section">Plans &amp; Add-ons</h2>
+
+<div class="cards">
+  <div class="card">
+    <h3>Administrator Seat</h3>
+    <p class="desc">Full access for project managers, construction managers, owners, and trade-company managers.</p>
+    <div class="price">$60 <small>CAD / month</small></div>
+    <ul class="features">
+      <li>Unlimited projects</li>
+      <li>Flexible budget formats — CSI MasterFormat, Uniformat, or custom cost codes</li>
+      <li>Schedules with dependencies &amp; Gantt charts</li>
+      <li>Purchase orders linked to cost codes</li>
+      <li>Invoice tracking against POs</li>
+      <li>One-click PDF reports</li>
+      <li>Priority support</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Additional User Seat</h3>
+    <p class="desc">Add team members to an existing account with admin-controlled permissions.</p>
+    <div class="price">$20 <small>CAD / month</small></div>
+    <span class="badge">Free if user is already an SSI subscriber</span>
+    <ul class="features">
+      <li>View schedules and look-aheads</li>
+      <li>Update progress and quantities</li>
+      <li>Add POs and invoices</li>
+      <li>Generate reports</li>
+      <li>Mobile-friendly</li>
+    </ul>
+  </div>
+
+  <div class="card featured">
+    <span class="addon-tag">Add-on</span>
+    <h3>Crew Time Clock</h3>
+    <p class="desc">Daily labour tracking for your crews.</p>
+    <div class="price">$25 <small>CAD / month</small></div>
+    <ul class="features">
+      <li>Crew clock-in / clock-out</li>
+      <li>Hours logged per project &amp; cost code</li>
+      <li>Daily labour cost roll-up</li>
+      <li>Exportable timesheets</li>
+      <li>Add to any active subscription</li>
+    </ul>
+  </div>
+</div>
+
+<h2 class="section">How Our Pricing Compares</h2>
+<table class="compare">
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Typical Starting Price</th>
+      <th>Pricing Transparency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="us">
+      <td>SSI Construction Manager</td>
+      <td>$60 CAD / month (flat)</td>
+      <td>Published, no contract</td>
+    </tr>
+    <tr>
+      <td>Procore</td>
+      <td>Custom quote (typically thousands/year)</td>
+      <td>"Request a demo"</td>
+    </tr>
+    <tr>
+      <td>Buildertrend</td>
+      <td>~$199–$499+ USD / month</td>
+      <td>Tiered, plus add-ons</td>
+    </tr>
+    <tr>
+      <td>Contractor Foreman</td>
+      <td>~$49 USD / month (entry tier)</td>
+      <td>Published, tiered</td>
+    </tr>
+  </tbody>
+</table>
+<p style="font-size:8pt;color:#6b7280;margin:4px 0 0;">Competitor pricing is approximate and based on publicly listed information at time of writing. Confirm directly with each vendor.</p>
+
+<h2 class="section">Pricing FAQ</h2>
+<dl class="faq">
+  <dt>Is there a free trial?</dt>
+  <dd>Yes — every new admin account starts with a 60-day free trial. No credit card required to begin.</dd>
+
+  <dt>Are there per-project or per-client fees?</dt>
+  <dd>No. The $60 CAD/month admin seat includes unlimited projects, budgets, schedules, POs, and invoices.</dd>
+
+  <dt>Do you charge to add my team?</dt>
+  <dd>Additional user seats are $20 CAD/month — and free if the user is already an SSI subscriber on their own account.</dd>
+
+  <dt>Can I use SSI Construction Manager outside Canada?</dt>
+  <dd>Yes. Pricing is in CAD and Stripe converts to your local currency at checkout. Builders worldwide use SSI.</dd>
+
+  <dt>What's included in the price?</dt>
+  <dd>CSI MasterFormat budgeting, schedules with dependencies and Gantt charts, purchase orders, invoice tracking, PDF reports, look-ahead schedules with email reminders, and priority support.</dd>
+</dl>
+
+<footer>
+  <div>Start your free trial: <strong>app.ssiconstruction.ca</strong></div>
+  <div>© 2026 SSI Construction Manager</div>
+</footer>
+
+</body>
+</html>
