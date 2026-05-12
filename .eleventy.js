@@ -17,6 +17,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("ssi_site_v2/ssi-construction-manager-overview.mp4");
   eleventyConfig.addPassthroughCopy("ssi_site_v2/ssi-trade-app-overview.mp4");
   eleventyConfig.addPassthroughCopy("ssi_site_v2/ssi-schedule.mp4");
+  eleventyConfig.addPassthroughCopy("ssi_site_v2/Screenshot_1.png");
+  eleventyConfig.addPassthroughCopy("ssi_site_v2/Screenshot_2.png");
+  eleventyConfig.addPassthroughCopy("ssi_site_v2/Screenshot_3.png");
+  eleventyConfig.addPassthroughCopy("ssi_site_v2/Screenshot_4.png");
+  eleventyConfig.addPassthroughCopy("ssi_site_v2/Screenshot_5.png");
 
   // Your existing collections
   eleventyConfig.addCollection("posts", function(collectionApi) {
