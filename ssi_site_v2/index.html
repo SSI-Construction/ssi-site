@@ -171,7 +171,7 @@
     "thumbnailUrl": "https://ssiconstruction.ca/Screenshot_2.png",
     "uploadDate": "2025-04-25",
     "contentUrl": "https://ssiconstruction.ca/ssi-construction-manager-overview.mp4",
-    "embedUrl": "https://ssiconstruction.ca/#video",
+    "embedUrl": "https://ssiconstruction.ca/overview/",
     "publisher": { "@type": "Organization", "name": "SSI Construction Manager", "logo": { "@type": "ImageObject", "url": "https://ssiconstruction.ca/icon_310x310.png" } }
   }
   </script>
@@ -184,7 +184,7 @@
     "thumbnailUrl": "https://ssiconstruction.ca/Screenshot_2.png",
     "uploadDate": "2025-04-25",
     "contentUrl": "https://ssiconstruction.ca/ssi-trade-app-overview.mp4",
-    "embedUrl": "https://ssiconstruction.ca/#video",
+    "embedUrl": "https://ssiconstruction.ca/overview/",
     "publisher": { "@type": "Organization", "name": "SSI Construction Manager", "logo": { "@type": "ImageObject", "url": "https://ssiconstruction.ca/icon_310x310.png" } }
   }
   </script>
@@ -250,51 +250,31 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
+  <!-- Floating CTA: fixed top-center, fades in once the user scrolls past the hero -->
+  <div id="floating-cta"
+       class="fixed top-4 left-1/2 -translate-x-1/2 -translate-y-4 z-50 opacity-0 pointer-events-none transition-all duration-300 ease-out">
+    <a href="https://app.ssiconstruction.ca" target="_blank" rel="noopener"
+       class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 transition font-semibold whitespace-nowrap">Start Free 60 Day Trial</a>
+  </div>
+
   <header class="bg-white shadow-md py-8 text-center">
     <img src="/icon_310x310.png" alt="SSI Logo" class="w-24 mx-auto mb-4 rounded-full">
     <h1 class="text-4xl font-bold text-blue-700">SSI Construction Manager</h1>
     <p class="text-gray-600 mt-2">The most powerful, affordable tool for managing construction projects</p>
     <a href="https://app.ssiconstruction.ca" target="_blank"
-       class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-full shadow hover:bg-blue-700 transition">Sign Up Now</a>
+       class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-full shadow hover:bg-blue-700 transition">Start Free 60 Day Trial</a>
   </header>
 
   <nav class="bg-gray-100 text-center py-4 space-x-4">
-    <a href="#video" class="text-blue-700 hover:underline">Video</a>
+    <a href="#pricing" class="text-blue-700 hover:underline">Pricing</a>
+    <a href="/overview/" class="text-blue-700 hover:underline">Overview</a>
     <a href="/instructional-videos.html" class="text-blue-700 hover:underline">Instructional Videos</a>
-    <a href="/pricing/" class="text-blue-700 hover:underline">Pricing</a>
     <a href="/procore-alternatives/" class="text-blue-700 hover:underline">Compare</a>
     <a href="/blog/" class="text-blue-700 hover:underline">Blog</a>
     <a href="#contact" class="text-blue-700 hover:underline">Contact</a>
     <a href="#reviews" class="text-blue-700 hover:underline">Reviews</a>
     <a href="getting-started.html" class="text-blue-700 hover:underline">Getting Started</a>
   </nav>
-
-  <section aria-label="Network benefit" class="bg-gradient-to-r from-blue-50 via-white to-blue-50 border-y border-blue-100">
-    <div class="max-w-5xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-center gap-3 text-center">
-      <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-blue-600 text-white text-lg shrink-0" aria-hidden="true">+</span>
-      <p class="text-gray-700 text-sm sm:text-base">
-        <strong class="text-blue-800">Build your network for free.</strong>
-        Already an SSI subscriber? Other subscribers can add you to their projects at <strong>no extra cost</strong> — coordinate freely across companies.
-        <a href="#pricing" class="text-blue-700 underline hover:text-blue-900 ml-1">See pricing</a>
-      </p>
-    </div>
-  </section>
-
-  <section id="video" class="py-12 text-center bg-white">
-    <h2 class="text-2xl font-semibold text-blue-800 mb-6">SSI Construction Manager Overview</h2>
-    <video class="mx-auto shadow-lg rounded-xl" width="720" height="480" controls preload="metadata" poster="/Screenshot_2.png">
-      <source src="/ssi-construction-manager-overview.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-
-    <h2 class="text-2xl font-semibold text-blue-800 mb-6 mt-12">SSI Trade Manager Overview</h2>
-    <video class="mx-auto shadow-lg rounded-xl" width="480" height="480" controls preload="metadata" poster="/Screenshot_2.png">
-      <source src="/ssi-trade-app-overview.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </section>
-
-  <!-- Blog section will be inserted here LATER -->
 
   <section id="pricing" class="py-16 bg-gray-50">
     <div class="max-w-5xl mx-auto px-4">
@@ -373,6 +353,33 @@
     </div>
   </section>
 
+  <section aria-label="Network benefit" class="bg-gradient-to-r from-blue-50 via-white to-blue-50 border-y border-blue-100">
+    <div class="max-w-5xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-center gap-3 text-center">
+      <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-blue-600 text-white text-lg shrink-0" aria-hidden="true">+</span>
+      <p class="text-gray-700 text-sm sm:text-base">
+        <strong class="text-blue-800">Build your network for free.</strong>
+        Already an SSI subscriber? Other subscribers can add you to their projects at <strong>no extra cost</strong> — coordinate freely across companies.
+        <a href="#pricing" class="text-blue-700 underline hover:text-blue-900 ml-1">See pricing</a>
+      </p>
+    </div>
+  </section>
+
+  <section aria-label="Product overview" class="py-16 text-center bg-white">
+    <h2 class="text-2xl font-semibold text-blue-800 mb-4">See it in action</h2>
+    <p class="text-gray-600 max-w-xl mx-auto mb-6">Watch full walkthroughs of SSI Construction Manager and SSI Trade Manager — budgets, schedules, purchase orders, and invoices in one place.</p>
+    <a href="/overview/" class="relative inline-block group">
+      <img src="/Screenshot_2.png" alt="SSI Construction Manager overview preview" class="mx-auto shadow-lg rounded-xl w-full max-w-xl group-hover:opacity-90 transition">
+      <span class="absolute inset-0 flex items-center justify-center">
+        <span class="w-16 h-16 rounded-full bg-blue-600/90 text-white flex items-center justify-center text-2xl shadow-lg group-hover:bg-blue-700 transition" aria-hidden="true">▶</span>
+      </span>
+    </a>
+    <div class="mt-6">
+      <a href="/overview/" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full shadow hover:bg-blue-700 transition">Watch the Overview →</a>
+    </div>
+  </section>
+
+  <!-- Blog section will be inserted here LATER -->
+
   <section id="faq" class="py-16 bg-white">
     <div class="max-w-3xl mx-auto px-4">
       <h2 class="text-3xl font-bold text-blue-800 text-center mb-10">Frequently asked questions</h2>
@@ -437,6 +444,30 @@
     &copy; 2026 SSI Construction Management
   </footer>
   
+  <!-- Floating CTA scroll behavior: fade in once the hero has scrolled out of view -->
+  <script>
+    (function() {
+      var cta = document.getElementById('floating-cta');
+      var header = document.querySelector('header');
+      if (!cta || !header) { return; }
+
+      function toggleCta() {
+        var threshold = header.offsetTop + header.offsetHeight;
+        if (window.scrollY > threshold) {
+          cta.classList.remove('opacity-0', '-translate-y-4', 'pointer-events-none');
+          cta.classList.add('opacity-100', 'translate-y-0');
+        } else {
+          cta.classList.add('opacity-0', '-translate-y-4', 'pointer-events-none');
+          cta.classList.remove('opacity-100', 'translate-y-0');
+        }
+      }
+
+      window.addEventListener('scroll', toggleCta, { passive: true });
+      window.addEventListener('resize', toggleCta);
+      toggleCta();
+    })();
+  </script>
+
   <!-- Holiday Theme Script -->
   <script>
     (function() {
