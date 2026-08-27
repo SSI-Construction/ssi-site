@@ -1,0 +1,30 @@
+---
+layout: layout.njk
+title: Contact Us
+description: Get in touch with the SSI Construction Manager team — questions about pricing, features, or setting up your account.
+permalink: /contact/
+eleventyNavigation:
+  key: Contact
+---
+
+<section class="text-center mb-12">
+  <p class="text-sm font-semibold uppercase tracking-wide text-blue-600 mb-2">Contact</p>
+  <h1 class="text-4xl font-bold text-gray-900">Get in touch</h1>
+  <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+    Questions about pricing, features, or getting set up? Send us a message and we'll get back to you.
+  </p>
+</section>
+
+<section class="max-w-xl mx-auto">
+  <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thank-you/" class="space-y-4">
+    <input type="hidden" name="form-name" value="contact" />
+    <p class="hidden">
+      <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+    </p>
+    <input type="text" name="name" placeholder="Your Name" class="w-full border p-3 rounded" required />
+    <input type="email" name="email" placeholder="Your Email" class="w-full border p-3 rounded" required />
+    <input type="text" name="company" placeholder="Your Company" class="w-full border p-3 rounded" />
+    <textarea name="message" placeholder="Your Message" class="w-full border p-3 rounded" rows="5" required></textarea>
+    <button type="submit" class="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition">Send Message</button>
+  </form>
+</section>

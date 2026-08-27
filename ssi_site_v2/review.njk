@@ -1,0 +1,26 @@
+---
+layout: layout.njk
+title: Leave a Review
+description: Share your experience with SSI Construction Manager and SSI Trade Manager.
+permalink: /review/
+---
+
+<section class="text-center mb-12">
+  <p class="text-sm font-semibold uppercase tracking-wide text-blue-600 mb-2">Reviews</p>
+  <h1 class="text-4xl font-bold text-gray-900">Leave a review</h1>
+  <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+    Tell other builders about your experience with SSI Construction Manager and SSI Trade Manager.
+  </p>
+</section>
+
+<section class="max-w-xl mx-auto">
+  <form name="reviews" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/review-thank-you/" class="space-y-4">
+    <input type="hidden" name="form-name" value="reviews" />
+    <p class="hidden">
+      <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+    </p>
+    <textarea name="review" placeholder="Your Review" class="w-full border p-3 rounded" rows="4" required></textarea>
+    <button type="submit" class="bg-green-600 text-white px-6 py-2.5 rounded-lg hover:bg-green-700 transition">Submit Review</button>
+  </form>
+  <p class="text-sm text-gray-500 mt-4 text-center">* Reviews will be published after admin approval.</p>
+</section>

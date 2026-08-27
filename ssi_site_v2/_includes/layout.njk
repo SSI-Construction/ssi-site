@@ -93,15 +93,14 @@
 </head>
 <body class="bg-gray-50 text-gray-800 antialiased flex flex-col min-h-screen">
 
-  {# --- Site header / nav (skipped on the homepage which has its own hero) --- #}
-  {% if page.url != "/" %}
+  {# --- Site header / nav (shown on every page, including the homepage) --- #}
   <header class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-40">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="/" class="flex items-center gap-3 group">
         <img src="/icon_310x310.png" alt="SSI logo" class="w-9 h-9 rounded-full">
         <span class="font-semibold text-blue-700 group-hover:text-blue-800">SSI Construction Manager</span>
       </a>
-      <nav class="text-sm space-x-4 hidden sm:block">
+      <nav class="text-sm hidden sm:flex sm:flex-wrap sm:items-center gap-x-4 gap-y-2 justify-end">
         <a href="/" class="text-gray-600 hover:text-blue-700">Home</a>
         <a href="/pricing/" class="text-gray-600 hover:text-blue-700">Pricing</a>
         <a href="/overview/" class="text-gray-600 hover:text-blue-700">Overview</a>
@@ -109,12 +108,13 @@
         <a href="/blog/" class="text-gray-600 hover:text-blue-700">Blog</a>
         <a href="/instructional-videos.html" class="text-gray-600 hover:text-blue-700">Videos</a>
         <a href="/getting-started.html" class="text-gray-600 hover:text-blue-700">Getting Started</a>
+        <a href="/faq/" class="text-gray-600 hover:text-blue-700">FAQ</a>
+        <a href="/contact/" class="text-gray-600 hover:text-blue-700">Contact</a>
         <a href="https://app.ssiconstruction.ca" target="_blank" rel="noopener"
            class="bg-blue-600 text-white px-3 py-1.5 rounded-full hover:bg-blue-700">Sign In</a>
       </nav>
     </div>
   </header>
-  {% endif %}
 
   {% set isPost = page.url.startsWith('/posts/') %}
 
@@ -211,8 +211,9 @@
         <h3 class="text-white font-semibold mb-2">Company</h3>
         <ul class="space-y-1">
           <li><a href="/blog/" class="hover:text-white">Blog</a></li>
-          <li><a href="/#contact" class="hover:text-white">Contact</a></li>
-          <li><a href="/#reviews" class="hover:text-white">Reviews</a></li>
+          <li><a href="/faq/" class="hover:text-white">FAQ</a></li>
+          <li><a href="/contact/" class="hover:text-white">Contact</a></li>
+          <li><a href="/review/" class="hover:text-white">Leave a Review</a></li>
         </ul>
       </div>
     </div>
