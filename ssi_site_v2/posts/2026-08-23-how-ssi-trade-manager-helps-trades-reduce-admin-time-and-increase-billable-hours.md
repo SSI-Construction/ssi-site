@@ -3,6 +3,7 @@ title: How SSI Trade Manager Helps Trades Reduce Admin Time and Increase
   Billable Hours
 date: 2026-08-30T19:25:11.073Z
 category: Tips & Tricks
+layout: layout.njk
 tags:
   - trade management software
   - SSI Trade Manager

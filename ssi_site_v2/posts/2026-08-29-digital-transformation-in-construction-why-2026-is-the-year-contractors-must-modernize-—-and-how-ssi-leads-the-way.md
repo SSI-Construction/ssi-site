@@ -3,6 +3,7 @@ title: "Digital Transformation in Construction: Why 2026 Is the Year Contractors
   Must Modernize — And How SSI Leads the Way"
 date: 2026-08-29T16:37:58.624Z
 category: Tips & Tricks
+layout: layout.njk
 tags:
   - digital transformation construction
   - construction management software

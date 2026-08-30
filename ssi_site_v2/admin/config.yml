@@ -18,4 +18,5 @@ collections:
       - { label: "Category", name: "category", widget: "select", options: ["Finance", "Scheduling", "Software Update", "Tips & Tricks"], multiple: false, required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false, default: [] }
       - { label: "Meta Description", name: "description", widget: "text", required: false }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layout.njk" }
       - { label: "Body", name: "body", widget: "markdown" }

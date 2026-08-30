@@ -3,6 +3,7 @@ title: "Navigating Market Uncertainty in 2026: Practical Strategies for Canadian
   Construction Companies"
 date: 2026-08-23T19:03:38.793Z
 category: Tips & Tricks
+layout: layout.njk
 tags:
   - construction market 2026
   - Canadian construction industry
