@@ -145,6 +145,13 @@
           {% endif %}
         </header>
 
+        {# Top-of-post CTA so SEO visitors see the trial offer without scrolling #}
+        <div class="mb-10 flex flex-wrap items-center gap-3">
+          <a href="https://app.ssiconstruction.ca" target="_blank" rel="noopener"
+             class="inline-block bg-blue-600 text-white px-5 py-2.5 rounded-full font-semibold hover:bg-blue-700 transition">Start Free 60-Day Trial</a>
+          <span class="text-sm text-gray-500">No credit card required</span>
+        </div>
+
         {# Post body — Tailwind Typography styles markdown nicely #}
         <div class="prose prose-blue prose-lg max-w-none
                     prose-headings:scroll-mt-24
@@ -182,6 +189,35 @@
       </div>
     {% endif %}
   </main>
+
+  {% if isPost %}
+  <!-- Floating CTA: fixed bottom-right, fades in once the user scrolls past the top-of-post CTA -->
+  <div id="floating-cta"
+       class="fixed bottom-6 right-6 translate-y-4 z-50 opacity-0 pointer-events-none transition-all duration-300 ease-out">
+    <a href="https://app.ssiconstruction.ca" target="_blank" rel="noopener"
+       class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 transition font-semibold whitespace-nowrap">Start Free 60-Day Trial</a>
+  </div>
+  <script>
+    (function() {
+      var cta = document.getElementById('floating-cta');
+      if (!cta) { return; }
+
+      function toggleCta() {
+        if (window.scrollY > 400) {
+          cta.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
+          cta.classList.add('opacity-100', 'translate-y-0');
+        } else {
+          cta.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
+          cta.classList.remove('opacity-100', 'translate-y-0');
+        }
+      }
+
+      window.addEventListener('scroll', toggleCta, { passive: true });
+      window.addEventListener('resize', toggleCta);
+      toggleCta();
+    })();
+  </script>
+  {% endif %}
 
   <footer class="bg-gray-900 text-gray-300 mt-16">
     <div class="max-w-5xl mx-auto px-4 py-8 grid sm:grid-cols-3 gap-6 text-sm">
