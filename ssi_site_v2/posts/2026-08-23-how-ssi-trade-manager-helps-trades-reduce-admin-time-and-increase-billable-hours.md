@@ -30,7 +30,7 @@ Between paperwork, scheduling, timesheets, job tracking, inventory management, a
 
 SSI Trade Manager was built to solve exactly that problem — and because it runs on the same platform as SSI Construction Manager, trades also gain a powerful collaboration advantage when working with general contractors.
 
-Below is a breakdown of how SSI Trade Manager helps trade companies reduce admin time, streamline operations, and increase billable hours — all while improving accuracy, accountability, and profitability.
+Below is a breakdown of how SSI Trade Manager helps trade companies reduce admin time, streamline operations, and increase billable hours — all while improving accuracy, accountability, and profitability. For more on what to look for in **construction software for trades**, see our [Construction Management Software Guide](/construction-management-software/).
 
 ## **1. Centralized Job Management (No More Scattered Information)**
 

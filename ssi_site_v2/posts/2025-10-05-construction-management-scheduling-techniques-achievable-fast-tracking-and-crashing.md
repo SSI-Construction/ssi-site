@@ -16,6 +16,8 @@ description: A practical guide to the three core scheduling techniques every con
 
 Scheduling is the heartbeat of construction management. A schedule that's realistic, well-coordinated, and actively maintained keeps projects on track — and a schedule that isn't will quietly become the source of every cost overrun and dispute on the job.
 
+This is one part of choosing the right **construction scheduling software** — for the full picture on construction management software, see our [Construction Management Software Guide](/construction-management-software/).
+
 In this guide we'll cover the three scheduling techniques every construction manager needs to master:
 
 1. **Building an achievable schedule** — the foundation

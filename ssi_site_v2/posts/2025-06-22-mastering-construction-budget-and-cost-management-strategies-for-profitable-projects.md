@@ -198,6 +198,8 @@ For the actual scheduling side of cost discipline (because schedule slips burn b
 
 Strong budget and cost management isn't a single tool or process — it's a set of disciplines that compound over the life of a project and a career. Estimate carefully. Define scope precisely. Track in real time. Control change rigorously. Use technology to integrate the data instead of fighting it.
 
+For more on evaluating **construction cost tracking software** and the rest of the category, see our [Construction Management Software Guide](/construction-management-software/).
+
 Looking for a smarter way to manage your construction finances?
 
 [Open SSI Construction Manager](https://app.ssiconstruction.ca) — a powerful, all-in-one solution designed for modern construction professionals. Streamline your budgeting, link your POs and invoices to cost codes, and make data-driven decisions from day one. Our [Getting Started guide](/getting-started.html) walks through the platform in about ten minutes.
