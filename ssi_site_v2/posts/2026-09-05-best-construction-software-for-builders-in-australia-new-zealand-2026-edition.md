@@ -11,6 +11,9 @@ tags:
   - builder project management tools
   - construction scheduling software
   - trade collaboration platform
+description: Discover the best construction software for builders in Australia
+  and New Zealand in 2026, including SSI Construction Manager and other leading
+  platforms.
 layout: layout.njk
 ---
 <!--StartFragment-->
