@@ -31,7 +31,7 @@ Great construction managers run their projects on **structured systems**, not me
 
 > **Pro insight:** Top CMs invest 30 minutes every Friday afternoon closing out the week — saving documents to the right folder, updating the schedule, logging POs and invoices. Five hours a year of structure beats five hundred hours of crisis.
 
-If you don't already have a system, [SSI Construction Manager](https://app.ssiconstruction.ca) gives you one out of the box: cost codes from CSI MasterFormat, a schedule with dependencies, POs and invoices linked to the budget, and one-click PDF reports. See our [Getting Started guide](/getting-started.html) for the orientation.
+If you don't already have a system, [SSI Construction Manager](https://app.ssiconstruction.ca) gives you one out of the box: cost codes from CSI MasterFormat, a schedule with dependencies, POs and invoices linked to the budget, and one-click PDF reports. See our [Getting Started guide](/getting-started/) for the orientation.
 
 ## 2. Excellent communication
 

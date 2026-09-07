@@ -202,4 +202,4 @@ For more on evaluating **construction cost tracking software** and the rest of t
 
 Looking for a smarter way to manage your construction finances?
 
-[Open SSI Construction Manager](https://app.ssiconstruction.ca) — a powerful, all-in-one solution designed for modern construction professionals. Streamline your budgeting, link your POs and invoices to cost codes, and make data-driven decisions from day one. Our [Getting Started guide](/getting-started.html) walks through the platform in about ten minutes.
+[Open SSI Construction Manager](https://app.ssiconstruction.ca) — a powerful, all-in-one solution designed for modern construction professionals. Streamline your budgeting, link your POs and invoices to cost codes, and make data-driven decisions from day one. Our [Getting Started guide](/getting-started/) walks through the platform in about ten minutes.

@@ -185,4 +185,4 @@ A reliable schedule starts with realism — proper WBS, real dependencies, hones
 
 Master those three techniques and you'll deliver projects that owners trust and teams enjoy working on.
 
-Ready to put structured scheduling into practice? [Open SSI Construction Manager](https://app.ssiconstruction.ca) for a tool that handles the schedule, the budget, and the change orders in one place. Or start with our [Getting Started guide](/getting-started.html) for a quick orientation.
+Ready to put structured scheduling into practice? [Open SSI Construction Manager](https://app.ssiconstruction.ca) for a tool that handles the schedule, the budget, and the change orders in one place. Or start with our [Getting Started guide](/getting-started/) for a quick orientation.

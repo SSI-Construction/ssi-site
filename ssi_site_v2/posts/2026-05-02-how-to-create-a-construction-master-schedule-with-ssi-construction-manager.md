@@ -171,6 +171,6 @@ After copying, run **Auto Schedule** in the target project to recalculate dates 
 
 ## Get started
 
-[Open SSI Construction Manager](https://app.ssiconstruction.ca) and build your first master schedule today. If you're new to the platform, our [Getting Started guide](/getting-started.html) walks through projects, budgets, POs, invoices, and reports in about ten minutes.
+[Open SSI Construction Manager](https://app.ssiconstruction.ca) and build your first master schedule today. If you're new to the platform, our [Getting Started guide](/getting-started/) walks through projects, budgets, POs, invoices, and reports in about ten minutes.
 
 Have a question or a feature request? [Send us a note](/contact/) — SSI is built by builders, for builders, and we ship updates based on what real users ask for.

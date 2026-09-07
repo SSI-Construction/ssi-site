@@ -141,4 +141,4 @@ Construction management isn't glamorous, but it is the difference between buildi
 
 If you're starting out, focus on the fundamentals: clean schedules with real dependencies, budgets tied to cost codes, structured change control, and weekly site walks. The tools will help, but the habits matter more.
 
-[Open SSI Construction Manager](https://app.ssiconstruction.ca) when you're ready to put those habits into a system. Or start with our [Getting Started guide](/getting-started.html) for a ten-minute tour of the platform.
+[Open SSI Construction Manager](https://app.ssiconstruction.ca) when you're ready to put those habits into a system. Or start with our [Getting Started guide](/getting-started/) for a ten-minute tour of the platform.

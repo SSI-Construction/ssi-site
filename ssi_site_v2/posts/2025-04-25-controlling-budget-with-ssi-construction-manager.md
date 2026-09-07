@@ -144,6 +144,6 @@ When changes start eating into both your schedule and your budget, that's when [
 
 ## Get started
 
-[Open SSI Construction Manager](https://app.ssiconstruction.ca) and set up your first project's divisional breakdown today. Need a fuller orientation? The [Getting Started guide](/getting-started.html) covers projects, schedules, POs, invoices, and reports in about ten minutes.
+[Open SSI Construction Manager](https://app.ssiconstruction.ca) and set up your first project's divisional breakdown today. Need a fuller orientation? The [Getting Started guide](/getting-started/) covers projects, schedules, POs, invoices, and reports in about ten minutes.
 
 Have a question or feature request? [Contact us](/contact/) — we ship updates based on what real builders ask for.

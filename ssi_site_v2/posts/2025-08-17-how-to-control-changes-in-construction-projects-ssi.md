@@ -163,4 +163,4 @@ When both parties trust the process, the process works. When trust breaks down, 
 
 Construction is unpredictable. Change is inevitable. But with clear processes, strong communication, smart tools, and a disciplined team, change becomes manageable instead of overwhelming.
 
-Want to make change control easier on your projects? [Open SSI Construction Manager](https://app.ssiconstruction.ca) — a smarter way to manage your construction projects, where every change is tied to your budget, schedule, and reports automatically. Or start with our [Getting Started guide](/getting-started.html) for a quick orientation.
+Want to make change control easier on your projects? [Open SSI Construction Manager](https://app.ssiconstruction.ca) — a smarter way to manage your construction projects, where every change is tied to your budget, schedule, and reports automatically. Or start with our [Getting Started guide](/getting-started/) for a quick orientation.
