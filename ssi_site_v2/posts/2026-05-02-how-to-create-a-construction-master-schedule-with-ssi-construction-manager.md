@@ -38,7 +38,7 @@ A good master schedule is **realistic**, **logically linked**, and **maintained*
 1. A list of major activities, broken down by phase (sitework, foundations, structure, envelope, MEP rough-in, finishes, commissioning, closeout). 20–80 line items is typical for a master schedule; subcontractors add their own detail.
 2. A duration estimate for each activity in **working days** (not calendar days — SSI handles the calendar math for you).
 3. The logical sequence: which activities depend on which.
-4. An SSI Construction Manager account. [Sign up here](https://app.ssiconstruction.ca) if you don't have one.
+4. An SSI Construction Manager account. [Sign up here](https://app.ssiconstruction.ca/?mode=signup) if you don't have one.
 
 ## Step 1 — Open or create your project
 
