@@ -9,3 +9,6 @@ ssi_site_v2/styles.css
 # Backup/old videos in deploy folder (not referenced by site)
 ssi_site_v2/ssi-construction-manager-overview-old.mp4
 ssi_site_v2/ssi-construction-manager-overview-rev2-backup.mp4
+
+# Raw marketing source uploads (already copied into ssi_site_v2 for deploy)
+/Animated explainer video/
