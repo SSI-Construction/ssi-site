@@ -6,6 +6,14 @@ backend:
 media_folder: "ssi_site_v2/images/uploads"
 public_folder: "/images/uploads"
 
+# Force plain-ASCII, hyphen-only slugs for every collection. Em-dashes/curly
+# quotes/non-breaking hyphens in a post's filename have been confirmed to make
+# Google's sitemap parser silently drop that URL (never discovered for indexing).
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
 collections:
   - name: "blog"
     label: "Blog"
@@ -15,8 +23,9 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Category", name: "category", widget: "string", required: false, hint: "Type any category (e.g. Finance, Scheduling, Software Update, Tips & Tricks)" }
-      - { label: "Tags", name: "tags", widget: "list", required: false, default: [] }
+      - { label: "Category", name: "category", widget: "string", required: false, hint: "Type any category (e.g. Finance, Scheduling, Software Update, Tips & Tricks) — reuse an existing category when relevant so this post shows up under 'Related articles' on similar posts" }
+      - { label: "Tags", name: "tags", widget: "list", required: false, default: [], hint: "Reuse a few tags from similar past posts where relevant, so 'Related articles' cross-linking picks this post up" }
       - { label: "Meta Description", name: "description", widget: "text", required: false }
       - { label: "Layout", name: "layout", widget: "hidden", default: "layout.njk" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Link naturally to the homepage (/) at least once in the body (e.g. on first mention of SSI Construction Manager) — this is separate from the CTA buttons, which already link to signup. Avoid copy-pasting the same promotional paragraph verbatim from other posts." }
+
