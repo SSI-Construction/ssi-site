@@ -197,6 +197,25 @@
           </a>
         </aside>
 
+        {# Related posts: strengthens internal linking so crawlers reach older articles #}
+        {% set relatedPosts = collections.posts | getRelatedPosts(page.url, category, tags, 3) %}
+        {% if relatedPosts.length %}
+        <section class="mt-12 pt-8 border-t border-gray-200">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">Related articles</h2>
+          <ul class="grid sm:grid-cols-3 gap-4">
+            {% for related in relatedPosts %}
+              <li>
+                <a href="{{ related.url }}"
+                   class="block h-full p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-300 transition">
+                  {% if related.category %}<p class="text-xs font-semibold text-blue-600 uppercase tracking-wide mb-1">{{ related.category }}</p>{% endif %}
+                  <h3 class="text-sm font-semibold text-gray-900 leading-snug">{{ related.title }}</h3>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endif %}
+
         <p class="mt-8 text-sm">
           <a href="/blog/" class="text-blue-600 hover:text-blue-800">← Back to all articles</a>
         </p>

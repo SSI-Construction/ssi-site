@@ -6,6 +6,29 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
 
+  // Rank other posts by shared category/tags so each post can link to related reading
+  eleventyConfig.addFilter("getRelatedPosts", (allPosts, currentUrl, category, tags, limit) => {
+    const currentTags = tags || [];
+    return allPosts
+      .filter((post) => post.url !== currentUrl)
+      .map((post) => {
+        let score = 0;
+        if (category && post.data.category === category) score += 2;
+        for (const tag of currentTags) {
+          if (post.data.tags && post.data.tags.includes(tag)) score += 1;
+        }
+        return { post, score };
+      })
+      .filter((entry) => entry.score > 0)
+      .sort((a, b) => b.score - a.score || b.post.date - a.post.date)
+      .slice(0, limit || 3)
+      .map((entry) => ({
+        url: entry.post.url,
+        title: entry.post.data.title,
+        category: entry.post.data.category
+      }));
+  });
+
   // Your existing passthrough copies
   eleventyConfig.addPassthroughCopy("ssi_site_v2/images");
   eleventyConfig.addPassthroughCopy("ssi_site_v2/admin");
