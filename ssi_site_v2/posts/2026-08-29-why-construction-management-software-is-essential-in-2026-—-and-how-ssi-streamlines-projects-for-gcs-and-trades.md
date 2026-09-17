@@ -1,6 +1,7 @@
 ---
 title: Why Construction Management Software Is Essential in 2026 — And How SSI
   Streamlines Projects for GCs and Trades**
+permalink: /posts/2026-08-29-why-construction-management-software-is-essential-in-2026-and-how-ssi-streamlines-projects-for-gcs-and-trades/
 date: 2026-08-29T16:33:31.846Z
 category: Tips & Tricks
 tags:

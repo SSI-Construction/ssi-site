@@ -1,6 +1,7 @@
 ---
 title: "Digital Transformation in Construction: Why 2026 Is the Year Contractors
   Must Modernize — And How SSI Leads the Way"
+permalink: /posts/2026-08-29-digital-transformation-in-construction-why-2026-is-the-year-contractors-must-modernize-and-how-ssi-leads-the-way/
 date: 2026-08-29T16:37:58.624Z
 category: Tips & Tricks
 layout: layout.njk

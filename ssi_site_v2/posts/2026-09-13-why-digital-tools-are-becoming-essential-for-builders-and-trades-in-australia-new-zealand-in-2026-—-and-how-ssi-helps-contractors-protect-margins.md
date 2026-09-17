@@ -2,6 +2,7 @@
 title: Why Digital Tools Are Becoming Essential for Builders and Trades in
   Australia & New Zealand in 2026 — And How SSI Helps Contractors Protect
   Margins
+permalink: /posts/2026-09-13-why-digital-tools-are-becoming-essential-for-builders-and-trades-in-australia-new-zealand-in-2026-and-how-ssi-helps-contractors-protect-margins/
 date: 2026-09-13T20:40:21.899Z
 category: Construction Technology Australia & NZ
 tags:

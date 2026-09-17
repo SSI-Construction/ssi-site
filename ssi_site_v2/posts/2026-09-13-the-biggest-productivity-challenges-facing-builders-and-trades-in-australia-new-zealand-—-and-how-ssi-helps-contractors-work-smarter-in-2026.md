@@ -1,6 +1,7 @@
 ---
 title: The Biggest Productivity Challenges Facing Builders and Trades in
   Australia & New Zealand — And How SSI Helps Contractors Work Smarter in 2026
+permalink: /posts/2026-09-13-the-biggest-productivity-challenges-facing-builders-and-trades-in-australia-new-zealand-and-how-ssi-helps-contractors-work-smarter-in-2026/
 date: 2026-09-13T20:53:09.919Z
 category: Construction Productivity Australia & NZ
 tags:

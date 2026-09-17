@@ -1,6 +1,7 @@
 ---
 title: "Strengthening Cash‑Flow Stability in 2026: What Canadian Construction
   Companies Need to Prioritize"
+permalink: /posts/2026-08-23-strengthening-cash-flow-stability-in-2026-what-canadian-construction-companies-need-to-prioritize/
 date: 2026-08-30T19:09:39.559Z
 category: Tips & Tricks
 layout: layout.njk
