@@ -108,6 +108,22 @@
     gtag('js', new Date());
     gtag('config', 'G-HF5TN869RM');
   </script>
+
+  {# --- UTM capture: cross-domain cookie so app.ssiconstruction.ca can read it at signup --- #}
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var pairs = [];
+      params.forEach(function (value, key) {
+        if (key.indexOf('utm_') === 0) pairs.push(key + '=' + encodeURIComponent(value));
+      });
+      if (pairs.length > 0) {
+        var expires = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toUTCString();
+        document.cookie = 'ssi_utm=' + encodeURIComponent(pairs.join('&')) +
+          '; expires=' + expires + '; path=/; domain=.ssiconstruction.ca; Secure; SameSite=Lax';
+      }
+    })();
+  </script>
 </head>
 <body class="bg-gray-50 text-gray-800 antialiased flex flex-col min-h-screen">
 
