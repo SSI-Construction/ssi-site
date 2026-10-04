@@ -23,11 +23,11 @@ layout: layout.njk
 ---
 <!--StartFragment-->
 
-Builders and trades across Australia and New Zealand are facing one of the toughest financial environments in recent years. Rising costs, uneven pipelines, tighter margins, and increased documentation requirements are putting pressure on cash flow and profitability. Recent industry reports show that many construction businesses are busy, but far less confident about whether current workloads will translate into sustainable margins .
+Builders and trades across Australia and New Zealand are facing one of the toughest financial environments in recent years. Rising costs, uneven pipelines, tighter margins, and increased documentation requirements are putting pressure on cash flow and profitability. Recent industry reports show that many construction businesses are busy, but far less confident about whether current workloads will translate into sustainable margins.
 
 In this environment, accounting accuracy and financial visibility have become critical. Contractors need real‑time insight into project costs, invoices, labour, and cash flow — and they need their project management tools to connect seamlessly with their accounting systems.
 
-That’s why SSI Construction Manager and SSI Trade Manager now include **full Xero accounting integration**, with **MYOB integration currently in development** and **QuickBooks planned for the future**.
+That’s why SSI Construction Manager and SSI Trade Manager now include **full Xero accounting integration**, with **QuickBooks integration currently in development** and **MYOB planned for the future**.
 
 This upgrade gives builders and trades across AUS/NZ a practical way to modernise their financial workflows without adopting complex enterprise systems.
 
@@ -35,24 +35,29 @@ This upgrade gives builders and trades across AUS/NZ a practical way to modernis
 
 ### **1. Margin Pressure Is Increasing**
 
-NZ construction leaders report declining confidence, rising cost pressures, and tighter profitability expectations . Australian builders face rising labour costs, material volatility, and increased competition for work .
+Builders and trades are dealing with:
+
+* rising labour costs
+* material volatility
+* tighter tender competition
+* increased compliance requirements
 
 Contractors cannot afford financial blind spots.
 
 ### **2. Cash Flow Stress Is Common**
 
-Many firms have experienced:
+Many firms experience:
 
 * delayed payments
-* cancelled projects
 * unexpected cost overruns
-* increased admin burden
+* admin bottlenecks
+* reconciliation errors
 
 Real‑time accounting sync helps contractors stay ahead of cash‑flow risks.
 
 ### **3. Builders Need Accurate Job Costing**
 
-With uneven residential activity and selective commercial pipelines , builders must track:
+With uneven residential activity and selective commercial pipelines, builders must track:
 
 * committed costs
 * actual costs
@@ -71,7 +76,7 @@ Trades are stretched across multiple jobs and need:
 * job logs
 * quick invoice generation
 
-Syncing directly to Xero (and soon MYOB) eliminates double entry and reduces errors.
+Syncing directly to Xero — and soon QuickBooks — eliminates double entry and reduces errors.
 
 ## **Introducing SSI’s New Xero Integration**
 
@@ -86,26 +91,20 @@ SSI Construction Manager and SSI Trade Manager now sync directly with **Xero**, 
 
 This integration is designed specifically for small‑to‑midsize builders and trades who need simple, reliable financial workflows.
 
-## **MYOB Integration Is Now in Progress**
+## **QuickBooks Integration Is Now in Development**
 
-MYOB remains widely used across Australia and New Zealand, especially among:
-
-* residential builders
-* small trade companies
-* long‑established construction firms
-
-SSI’s upcoming MYOB integration will allow contractors to:
+QuickBooks is widely used among small trade businesses and subcontractors across Australia and New Zealand. SSI’s upcoming QuickBooks integration will allow contractors to:
 
 * sync invoices
 * map cost codes
-* align project budgets with MYOB accounts
+* align project budgets with QuickBooks accounts
 * streamline financial reporting
 
 This will make SSI one of the few construction platforms offering **multi‑accounting‑system compatibility** for AUS/NZ contractors.
 
-## **QuickBooks Integration Coming Soon**
+## **MYOB Integration Planned for the Future**
 
-QuickBooks is growing among small trade businesses and subcontractors. SSI’s future QuickBooks integration will complete the ecosystem, giving contractors full flexibility regardless of their accounting platform.
+MYOB remains popular among established builders and trade companies. SSI will introduce MYOB integration after QuickBooks, giving contractors full flexibility regardless of their accounting platform.
 
 ## **Why This Matters for AUS/NZ Builders and Trades**
 
@@ -120,9 +119,9 @@ Builders and trades across Australia and New Zealand need tools that help them:
 
 SSI’s accounting integrations deliver exactly that — with predictable pricing and workflows built for real contractors, not enterprise IT teams.
 
-# **Conclusion**
+## **Conclusion**
 
-With rising cost pressures, uneven pipelines, and tighter margins across Australia and New Zealand, builders and trades need stronger financial visibility and simpler accounting workflows. SSI’s new **Xero integration**, combined with upcoming **MYOB** and future **QuickBooks** support, gives contractors a practical way to modernise their financial operations and protect profitability in 2026.
+With rising cost pressures, uneven pipelines, and tighter margins across Australia and New Zealand, builders and trades need stronger financial visibility and simpler accounting workflows. SSI’s new **Xero integration**, combined with upcoming **QuickBooks** and future **MYOB** support, gives contractors a practical way to modernise their financial operations and protect profitability in 2026.
 
 SSI Construction Manager and SSI Trade Manager now offer one of the most complete financial ecosystems available to small‑to‑midsize contractors — helping them stay organised, accurate, and competitive in a challenging construction market.
 
