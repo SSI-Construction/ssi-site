@@ -1,4 +1,5 @@
 ---
+permalink: /posts/2026-09-05-why-small-to-midsize-contractors-are-choosing-ssi-construction-manager-ssi-trade-manager-in-2026/
 title: Why Small‑to‑Midsize Contractors Are Choosing SSI Construction Manager &
   SSI Trade Manager in 2026
 date: 2026-09-05T21:42:04.692Z
